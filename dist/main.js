@@ -86,14 +86,27 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/greeter.js":
+/*!************************!*\
+  !*** ./src/greeter.js ***!
+  \************************/
+/*! exports provided: Greeter */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Greeter\", function() { return Greeter; });\nclass Greeter {\r\n\tgreet(greeting, object) {\r\n\t\treturn `${greeting}, ${object}!!`;\r\n\t}\r\n}\n\n//# sourceURL=webpack:///./src/greeter.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("const greeter = new Greeter();\r\n\r\nconst message = greeter.greet('Hello', 'Webpack');\r\n\r\nconsole.log(message);\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _greeter_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./greeter.js */ \"./src/greeter.js\");\n\r\n\r\nconst greeter = new _greeter_js__WEBPACK_IMPORTED_MODULE_0__[\"Greeter\"]();\r\n\r\nconst message = greeter.greet('Hello', 'Webpack');\r\n\r\nconsole.log(message);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
