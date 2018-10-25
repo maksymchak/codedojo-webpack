@@ -5,4 +5,4 @@ const greeter = new Greeter();
 
 const message = greeter.greet('Hello', 'Webpack');
 
-$('body').text(message);
+$('#app').text(message);
