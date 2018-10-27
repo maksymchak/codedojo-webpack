@@ -1,4 +1,3 @@
-import $ from 'jquery';
 import { Greeter } from './greeter.js';
 
 const greeter = new Greeter();
