@@ -4,4 +4,4 @@ const greeter = new Greeter();
 
 const message = greeter.greet('Hello', 'Webpack');
 
-$('#app').text(message);
+console.log(message);
