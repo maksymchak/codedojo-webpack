@@ -1,3 +1,5 @@
+$primary-color: #2B3A42; 
+
 html {
 	font-family: 'Consolas', monospace;
 }
@@ -5,7 +7,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #2B3A42;
+	background-color: $primary-color;
 	color: white;
 	width: 100vw;
 	height: 100vh;

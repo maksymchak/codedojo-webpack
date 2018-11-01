@@ -1,6 +1,6 @@
 import { Greeter } from './greeter.js';
 
-import styles from './styles.css';
+import styles from './styles.scss';
 
 
 const app = document.querySelector('#app');

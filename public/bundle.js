@@ -86,10 +86,10 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "../node_modules/css-loader/index.js!./styles.css":
-/*!***********************************************!*\
-  !*** ../node_modules/css-loader!./styles.css ***!
-  \***********************************************/
+/***/ "../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./styles.scss":
+/*!******************************************************************************************!*\
+  !*** ../node_modules/css-loader!../node_modules/sass-loader/lib/loader.js!./styles.scss ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -98,7 +98,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/li
 
 
 // module
-exports.push([module.i, "html {\r\n\tfont-family: 'Consolas', monospace;\r\n}\r\n\r\nbody {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tbackground-color: #2B3A42;\r\n\tcolor: white;\r\n\twidth: 100vw;\r\n\theight: 100vh;\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\tjustify-content: center;\r\n\talign-items: center;\r\n}\r\n\r\n.title {\r\n\tfont-size: 42px;\r\n}\r\n\r\n.logo {\r\n\tmax-width: 256px;\r\n}", ""]);
+exports.push([module.i, "html {\n  font-family: 'Consolas', monospace; }\n\nbody {\n  margin: 0;\n  padding: 0;\n  background-color: #2B3A42;\n  color: white;\n  width: 100vw;\n  height: 100vh;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center; }\n\n.title {\n  font-size: 42px; }\n\n.logo {\n  max-width: 256px; }\n", ""]);
 
 // exports
 
@@ -748,7 +748,7 @@ var Greeter = exports.Greeter = function () {
 
 var _greeter = __webpack_require__(/*! ./greeter.js */ "./greeter.js");
 
-var _styles = __webpack_require__(/*! ./styles.css */ "./styles.css");
+var _styles = __webpack_require__(/*! ./styles.scss */ "./styles.scss");
 
 var _styles2 = _interopRequireDefault(_styles);
 
@@ -763,15 +763,15 @@ app.appendChild(h1);
 
 /***/ }),
 
-/***/ "./styles.css":
-/*!********************!*\
-  !*** ./styles.css ***!
-  \********************/
+/***/ "./styles.scss":
+/*!*********************!*\
+  !*** ./styles.scss ***!
+  \*********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../node_modules/css-loader!./styles.css */ "../node_modules/css-loader/index.js!./styles.css");
+var content = __webpack_require__(/*! !../node_modules/css-loader!../node_modules/sass-loader/lib/loader.js!./styles.scss */ "../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./styles.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
