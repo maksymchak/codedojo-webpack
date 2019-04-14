@@ -3,9 +3,6 @@ import { Greeter } from './greeter.js';
 import styles from './styles.scss';
 import logo from './webpack.png';
 
-
-const app = document.querySelector('#app');
-
 const img = document.createElement('img');
 img.src = logo;
 img.className = styles.log;
